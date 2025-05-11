@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Abass Shuaib</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Abass Shuaib</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <div class="contact-info">
+      <p>If you have any questions or need further information, feel free to reach out to me:</p>
+      <ul>
+        <li>Email: <a href="mailto:ibnabass2025@gmail.com">ibnabass2025@gmail.com</a></li>
+        <li>Phone: <a href="tel:+2349057344918">+234 905 734 4918</a></li>
+      </ul>
+    </div>
+
+    <h2>Or send me a message:</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" name="name" id="name" required><br><br>
+
+      <label for="email">Your Email:</label>
+      <input type="email" name="email" id="email" required><br><br>
+
+      <label for="message">Your Message:</label><br>
+      <textarea name="message" id="message" rows="4" required></textarea><br><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abass Shuaib. All rights reserved.</p>
+  </footer>
+</body>
+</html>
